@@ -46,6 +46,7 @@ const Navigation = ({ children }) => {
           ) : null}
         </div>
       </div>
+
       <FilesNav />
     </>
   );
