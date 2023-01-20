@@ -1,35 +1,47 @@
 import { FaChevronRight, FaReact } from "react-icons/fa";
 
-import Layout from "../Layout/Layout";
+import { useState } from "react";
 
 const Navigation = ({ children }) => {
+  const [showFiles, setShowFiles] = useState(undefined);
+
+  const showFilesHandler = () => {
+    setShowFiles((prevState) => !prevState);
+  };
+
   return (
-    <div>
-      <p>Explorer</p>
+    <div className="border-r-2 border-t-2 border-b-2 w-48 flex flex-col gap-2">
+      <p className="p-2  text-lg tracking-widest">Explorer</p>
       <div>
-        <input type="checkbox" id="portfolio-checkbox" />
-        <label htmlFor="portfolio-checkbox" className="flex">
-          <FaChevronRight />
+        <label
+          htmlFor="portfolio-checkbox"
+          className="flex items-center gap-1 ml-1 cursor-pointer"
+          onClick={showFilesHandler}
+        >
+          <FaChevronRight className={`${!showFiles ? `rotate-90` : null} `} />
           PORTFOLIO
         </label>
-        <div>
-          <div className="flex">
-            <FaReact />
-            <p>Home.jsx</p>
+
+        {!showFiles ? (
+          <div className="p-2 flex flex-col justify-center text-md ">
+            <div className="flex gap-2">
+              <FaReact />
+              <p>Home.jsx</p>
+            </div>
+            <div className="flex gap-2">
+              <FaReact />
+              <p>Projects.js</p>
+            </div>
+            <div className="flex gap-2">
+              <FaReact />
+              <p>About.json</p>
+            </div>
+            <div className="flex gap-2">
+              <FaReact />
+              <p>Github.md</p>
+            </div>
           </div>
-          <div className="flex">
-            <FaReact />
-            <p>Projects.js</p>
-          </div>
-          <div className="flex">
-            <FaReact />
-            <p>About.json</p>
-          </div>
-          <div className="flex">
-            <FaReact />
-            <p>Github.md</p>
-          </div>
-        </div>
+        ) : null}
       </div>
     </div>
   );
