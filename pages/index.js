@@ -1,3 +1,4 @@
+import ActionsNav from "../components/Navigation/ActionsNav";
 import Image from "next/image";
 import Navigation from "../components/Navigation/Navigation";
 
@@ -25,7 +26,9 @@ const HomePage = () => {
           </div>
           <p className="flex flex-auto">Amil Silahic - Portfolio</p>
         </section>
-        <Navigation></Navigation>
+
+        <ActionsNav />
+        {/* add the bottom thing here  */}
       </div>
     </>
   );

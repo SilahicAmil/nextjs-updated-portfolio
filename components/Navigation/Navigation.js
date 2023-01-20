@@ -1,30 +1,15 @@
+import Layout from "../Layout/Layout";
+
 const Navigation = ({ children }) => {
   return (
-    <div className="flex flex-col bg-red-50 text-black w-64">
+    <Layout>
       <div>
-        <p>Portfolio</p>
-
+        <p>Explorer</p>
         <div>
-          <aside>
-            <nav>
-              <ul>
-                <li>Side</li>
-              </ul>
-            </nav>
-          </aside>
-        </div>
-
-        <div>
-          <aside>
-            <nav>
-              <ul>
-                <li>About.html</li>
-              </ul>
-            </nav>
-          </aside>
+          <input type="checkbox" id="portfolio-checkbox" />
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
