@@ -58,15 +58,15 @@ const Navigation = ({ children }) => {
                     </li>
                     <li className="flex items-center gap-2">
                       <FaReact />
-                      Home.jsx
+                      Projects.js
                     </li>
                     <li className="flex items-center gap-2">
                       <FaReact />
-                      Home.jsx
+                      About.json
                     </li>
                     <li className="flex items-center gap-2">
                       <FaReact />
-                      Home.jsx
+                      Github.md
                     </li>
                   </div>
                 ) : null}

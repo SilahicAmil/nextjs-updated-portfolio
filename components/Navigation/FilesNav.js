@@ -10,23 +10,27 @@ const FilesNav = () => {
         <div className="flex h-full w-full overflow-x-auto">
           <div
             className={`${
-              router.pathname === "/" ? "bg-red-500" : null
-            } flex h-8 items-center p2- gap-2 w-40 justify-center`}
+              router.pathname === "/" ? "border-b-2" : null
+            } flex h-8 items-center p2 gap-2 w-40 justify-center`}
           >
             <FaReact />
             <Link href="/">Home.jsx</Link>
           </div>
-          <div className="flex h-8 items-center p-2 gap-2 w-40 justify-center">
+          <div
+            className={`${
+              router.pathname === "/projects" ? "border-b-2" : null
+            } flex h-8 items-center p2 gap-2 w-40 justify-center`}
+          >
             <FaReact />
-            Home.jsx
+            <Link href="/projects">Projects.js</Link>
           </div>
           <div className="flex h-8 items-center p-2 gap-2 w-40 justify-center">
             <FaReact />
-            Home.jsx
+            About.json
           </div>
           <div className="flex h-8 items-center p-2 gap-2 w-40 justify-center">
             <FaReact />
-            Home.jsx
+            Github.md
           </div>
         </div>
       </>
