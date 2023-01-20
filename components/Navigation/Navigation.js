@@ -19,10 +19,35 @@ const Navigation = ({ children }) => {
           <div className="flex flex-col justify-between mt-6">
             <aside>
               <ul>
-                <li className="flex items-center gap-2">
-                  <FaReact />
-                  Home.jsx
-                </li>
+                <label
+                  className="flex items-center cursor-pointer"
+                  onClick={showFilesHandler}
+                >
+                  <FaChevronRight
+                    className={`${!showFiles ? "rotate-90" : null}`}
+                  />
+                  <p>Portfolio</p>
+                </label>
+                {!showFiles ? (
+                  <div>
+                    <li className="flex items-center gap-2">
+                      <FaReact />
+                      Home.jsx
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <FaReact />
+                      Home.jsx
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <FaReact />
+                      Home.jsx
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <FaReact />
+                      Home.jsx
+                    </li>
+                  </div>
+                ) : null}
               </ul>
             </aside>
           </div>

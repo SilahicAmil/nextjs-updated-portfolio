@@ -5,9 +5,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <TopNav />
-
       <Navigation>
-        <main className="flex flex-1 font-mono">{children}</main>
+        <main className="font-mono">{children}</main>
       </Navigation>
     </>
   );
