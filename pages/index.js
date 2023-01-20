@@ -2,7 +2,9 @@ const HomePage = () => {
   return (
     <>
       <div>
-        <h1>Bottom Thingy</h1>
+        <main className="py-2">
+          <h1>Hello Everyone</h1>
+        </main>
       </div>
     </>
   );

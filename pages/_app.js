@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 
-import ActionsNav from "../components/Navigation/ActionsNav";
 import Layout from "../components/Layout/Layout";
 
 export default function App({ Component, pageProps }) {

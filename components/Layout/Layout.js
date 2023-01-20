@@ -1,12 +1,14 @@
-import ActionsNav from "../Navigation/ActionsNav";
+import Navigation from "../Navigation/Navigation";
 import TopNav from "../Navigation/TopNav";
 
 const Layout = ({ children }) => {
   return (
     <>
       <TopNav />
-      <ActionsNav />
-      <main className="flex flex-1 font-mono">{children}</main>
+
+      <Navigation>
+        <main className="flex flex-1 font-mono">{children}</main>
+      </Navigation>
     </>
   );
 };
