@@ -16,9 +16,15 @@ const ActionsNav = ({}) => {
   return (
     <div className="flex flex-col w-20 justify-between bg-sidebar 2xl:visible xl:visible lg:visible md:visible sm:visible  ">
       <div className="py-4 gap-6 flex flex-col">
-        <div className="flex items-center h-8 justify-center ">
-          <VscFiles className="text-2xl" />
-        </div>
+        <Link href="/">
+          <div
+            className={` ${
+              router.pathname === "/" ? "bg-higlighted" : null
+            } flex items-center h-8 justify-center`}
+          >
+            <VscFiles className="text-2xl" />
+          </div>
+        </Link>
         <div className="flex items-center h-8 justify-center ">
           <VscGithubAlt className="text-2xl" />
         </div>
