@@ -7,7 +7,7 @@ const FilesNav = () => {
   return (
     <>
       <>
-        <div className="flex h-full w-full overflow-x-auto bg-files 2xl:visible xl:visible lg:visible md:visible sm:visible lg:w-full md:w-screen sm:w-screen xsm:w-screen">
+        <div className="flex h-full w-full overflow-x-auto bg-files 2xl:visible xl:visible lg:visible md:visible sm:visible lg:w-full md:w-screen sm:w-screen xsm:w-screen md:h-8 sm:h-8 xsm:h-16  items-center gap-4 ">
           <div
             className={`${
               router.pathname === "/" ? "border-b-2" : null
