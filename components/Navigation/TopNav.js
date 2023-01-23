@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TopNav = () => {
   return (
-    <section className="w-screen  h-8 flex items-center justify-center  bg-topnav font-mono">
+    <section className="w-screen  h-8 flex items-center justify-center  bg-topnav  2xl:visible xl:visible lg:visible md:invisible sm:invisible xsm:invisible">
       <span className="flex mr-3 ml-1">
         <Image
           src="/images/vscode_logo.png"

@@ -15,8 +15,7 @@ module.exports = {
         higlighted: "#15181c",
       },
       screens: {
-        sm: "400px",
-        md: "960px",
+        xsm: "414px",
       },
     },
 
