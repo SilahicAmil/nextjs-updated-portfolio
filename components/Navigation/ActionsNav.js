@@ -14,7 +14,7 @@ const ActionsNav = ({}) => {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col w-20 justify-between bg-sidebar">
+    <div className="flex flex-col w-20 justify-between bg-sidebar 2xl:visible xl:visible lg:visible md:visible sm:visible  ">
       <div className="py-4 gap-6 flex flex-col">
         <div className="flex items-center h-8 justify-center ">
           <VscFiles className="text-2xl" />

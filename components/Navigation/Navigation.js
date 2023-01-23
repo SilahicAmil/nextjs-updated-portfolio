@@ -13,9 +13,9 @@ const Navigation = ({ children }) => {
 
   return (
     <>
-      <div className="flex font-mono">
+      <div className="flex font-mono  ">
         <ActionsNav />
-        <div className="flex flex-col  w-64 px-4  py-2 overflow-y-auto max-h-screen h-[94vh]  bg-navigation ">
+        <div className="flex flex-col  w-64 px-4  py-2 overflow-y-auto max-h-screen h-[94vh]  bg-navigation 2xl:visible xl:visible lg:visible md:invisible sm:invisible">
           <h2 className="flex items-center justify-center">Explorer</h2>
 
           <div className="flex flex-col justify-between mt-6">

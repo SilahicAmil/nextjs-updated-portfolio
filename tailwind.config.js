@@ -14,6 +14,10 @@ module.exports = {
         bottom: "#24292e",
         higlighted: "#15181c",
       },
+      screens: {
+        sm: "400px",
+        md: "960px",
+      },
     },
 
     fontFamily: {
