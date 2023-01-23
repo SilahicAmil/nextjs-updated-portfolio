@@ -13,6 +13,9 @@ module.exports = {
       files: "#1f2428",
       bottom: "#24292e",
     },
+    fontFamily: {
+      SansPro: ["Source Sans Pro", "sans-pro"],
+    },
   },
   plugins: [],
 };
