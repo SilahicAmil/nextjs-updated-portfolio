@@ -1,5 +1,6 @@
 import { FaChevronRight, FaFile, FaReact } from "react-icons/fa";
 
+import ActionsNav from "./ActionsNav";
 import FilesNav from "./FilesNav";
 import { useState } from "react";
 
@@ -13,28 +14,7 @@ const Navigation = ({ children }) => {
   return (
     <>
       <div className="flex font-mono">
-        <div className="flex flex-col w-32 border-2 justify-between">
-          <div className="py-4 gap-6 flex flex-col">
-            <div className="flex items-center justify-center text-xl">
-              <FaFile />
-            </div>
-            <div className="flex items-center justify-center text-xl">
-              <FaFile />
-            </div>
-            <div className="flex items-center justify-center text-xl">
-              <FaFile />
-            </div>
-            <div className="flex items-center justify-center text-xl">
-              <FaFile />
-            </div>
-          </div>
-          <div className="py-4">
-            <div className="flex items-center justify-center text-xl">
-              <FaFile />
-            </div>
-          </div>
-        </div>
-
+        <ActionsNav />
         <div className="flex flex-col  w-80 px-4  py-2 overflow-y-auto border-2 h-[93vh]">
           <h2 className="flex items-center justify-center">Explorer</h2>
 

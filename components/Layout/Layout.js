@@ -1,3 +1,4 @@
+import BottomNav from "../Navigation/BottomNav";
 import Navigation from "../Navigation/Navigation";
 import TopNav from "../Navigation/TopNav";
 
@@ -8,6 +9,7 @@ const Layout = ({ children }) => {
       <Navigation>
         <main className="font-mono">{children}</main>
       </Navigation>
+      <BottomNav />
     </>
   );
 };
