@@ -1,4 +1,4 @@
-import { FaChevronRight, FaFile, FaReact } from "react-icons/fa";
+import { FaChevronRight, FaFolder, FaReact } from "react-icons/fa";
 
 import ActionsNav from "./ActionsNav";
 import FilesNav from "./FilesNav";
@@ -22,12 +22,13 @@ const Navigation = ({ children }) => {
             <aside>
               <ul>
                 <label
-                  className="flex items-center cursor-pointer"
+                  className="flex items-center cursor-pointer gap-2"
                   onClick={showFilesHandler}
                 >
                   <FaChevronRight
                     className={`${!showFiles ? "rotate-90" : null}`}
                   />
+                  <FaFolder />
                   <p>Portfolio</p>
                 </label>
                 {!showFiles ? (
