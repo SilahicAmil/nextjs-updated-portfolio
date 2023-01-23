@@ -7,7 +7,7 @@ import {
 
 const BottomNav = ({}) => {
   return (
-    <div className="w-screen h-full border-2">
+    <div className="w-screen h-full  bg-bottom">
       <ul className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <VscSourceControl className="text-lg" />

@@ -15,7 +15,7 @@ const Navigation = ({ children }) => {
     <>
       <div className="flex font-mono">
         <ActionsNav />
-        <div className="flex flex-col  w-80 px-4  py-2 overflow-y-auto border-2 h-[93vh]">
+        <div className="flex flex-col  w-80 px-4  py-2 overflow-y-auto max-h-screen h-[94vh]  bg-navigation ">
           <h2 className="flex items-center justify-center">Explorer</h2>
 
           <div className="flex flex-col justify-between mt-6">

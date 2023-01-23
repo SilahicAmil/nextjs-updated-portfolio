@@ -2,7 +2,7 @@ import { FaFile } from "react-icons/fa";
 
 const ActionsNav = ({}) => {
   return (
-    <div className="flex flex-col w-32 border-2 justify-between">
+    <div className="flex flex-col w-32 justify-between bg-sidebar">
       <div className="py-4 gap-6 flex flex-col">
         <div className="flex items-center justify-center text-xl">
           <FaFile />
