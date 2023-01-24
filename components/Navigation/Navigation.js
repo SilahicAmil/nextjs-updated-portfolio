@@ -33,8 +33,8 @@ const Navigation = ({ children }) => {
                   <FaChevronRight
                     className={`${!showFiles ? "rotate-90" : null}`}
                   />
-                  <FaFolder />
-                  <p>Portfolio</p>
+                  <FaFolder className="text-md text-yellow-200" />
+                  <p className="text-md text-slate-400">Portfolio</p>
                 </label>
                 {!showFiles ? (
                   <div className="px-4 py-1 gap-2 flex flex-col ">
@@ -46,7 +46,7 @@ const Navigation = ({ children }) => {
                             : null
                         } flex items-center gap-2 `}
                       >
-                        <FaReact />
+                        <FaReact className="text-lg text-blue-500" />
                         Home.jsx
                       </li>
                     </Link>
@@ -58,7 +58,7 @@ const Navigation = ({ children }) => {
                             : null
                         } flex items-center gap-2`}
                       >
-                        <IoLogoJavascript />
+                        <IoLogoJavascript className="text-orange-300 text-lg" />
                         Projects.js
                       </li>
                     </Link>
@@ -70,12 +70,12 @@ const Navigation = ({ children }) => {
                             : null
                         } flex items-center  gap-2`}
                       >
-                        <VscJson />
+                        <VscJson className="text-orange-300 text-lg" />
                         Contact.json
                       </li>
                     </Link>
                     <li className="flex items-center gap-2">
-                      <VscMarkdown />
+                      <VscMarkdown className="text-lg text-blue-400" />
                       Github.md
                     </li>
                   </div>

@@ -17,7 +17,7 @@ const FilesNav = () => {
                 router.pathname === "/" ? "lg:border-b-2" : null
               } flex h-8 items-center p2 gap-2 w-40 justify-center`}
             >
-              <FaReact />
+              <FaReact className="text-lg text-blue-400" />
               Home.jsx
             </div>
           </Link>
@@ -27,7 +27,7 @@ const FilesNav = () => {
                 router.pathname === "/projects" ? "lg:border-b-2" : null
               } flex h-8 items-center p2 gap-2 w-40 justify-center`}
             >
-              <IoLogoJavascript />
+              <IoLogoJavascript className="text-lg text-orange-300" />
               Projects.js
             </div>
           </Link>
@@ -37,12 +37,12 @@ const FilesNav = () => {
                 router.pathname === "/contact" ? "lg:border-b-2" : null
               } flex h-8 items-center p-2 gap-2 w-40 justify-center`}
             >
-              <VscJson />
+              <VscJson className="text-lg text-orange-300" />
               Contact.json
             </div>
           </Link>
           <div className="flex h-8 items-center p-2 gap-2 w-40 justify-center">
-            <VscMarkdown />
+            <VscMarkdown className="text-lg text-blue-400" />
             Github.md
           </div>
         </div>

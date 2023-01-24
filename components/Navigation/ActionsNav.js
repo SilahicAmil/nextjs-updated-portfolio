@@ -43,9 +43,9 @@ const ActionsNav = ({}) => {
           <div
             className={`${
               router.pathname === "/contact" ? "bg-higlighted" : null
-            } flex items-center h-8 justify-center`}
+            } flex items-center h-8 justify-center `}
           >
-            <VscJson className="text-2xl" />
+            <VscJson className="text-2xl " />
           </div>
         </Link>
       </div>
