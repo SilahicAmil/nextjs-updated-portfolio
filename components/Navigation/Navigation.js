@@ -1,7 +1,9 @@
 import { FaChevronRight, FaFolder, FaReact } from "react-icons/fa";
+import { VscJson, VscMarkdown } from "react-icons/vsc";
 
 import ActionsNav from "./ActionsNav";
 import FilesNav from "./FilesNav";
+import { IoLogoJavascript } from "react-icons/io";
 import { useState } from "react";
 
 const Navigation = ({ children }) => {
@@ -37,15 +39,15 @@ const Navigation = ({ children }) => {
                       Home.jsx
                     </li>
                     <li className="flex items-center gap-2">
-                      <FaReact />
+                      <IoLogoJavascript />
                       Projects.js
                     </li>
                     <li className="flex items-center gap-2">
-                      <FaReact />
+                      <VscJson />
                       About.json
                     </li>
                     <li className="flex items-center gap-2">
-                      <FaReact />
+                      <VscMarkdown />
                       Github.md
                     </li>
                   </div>

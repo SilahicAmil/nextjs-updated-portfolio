@@ -1,4 +1,5 @@
 import Head from "next/head";
+import SplashContent from "../components/HomePage/SplashContent";
 
 const HomePage = () => {
   return (
@@ -12,9 +13,7 @@ const HomePage = () => {
         />
       </Head>
       <div>
-        <main className="py-2">
-          <h1>Hello Everyone</h1>
-        </main>
+        <SplashContent />
       </div>
     </>
   );
