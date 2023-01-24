@@ -39,9 +39,15 @@ const ActionsNav = ({}) => {
             <VscExtensions className="text-2xl" />
           </div>
         </Link>
-        <div className="flex items-center h-8 justify-center">
-          <VscJson className="text-2xl" />
-        </div>
+        <Link href="/contact">
+          <div
+            className={`${
+              router.pathname === "/contact" ? "bg-higlighted" : null
+            } flex items-center h-8 justify-center`}
+          >
+            <VscJson className="text-2xl" />
+          </div>
+        </Link>
       </div>
 
       <div className="py-4 flex flex-col gap-4">

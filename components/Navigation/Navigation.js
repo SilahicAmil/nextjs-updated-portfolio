@@ -4,6 +4,8 @@ import { VscJson, VscMarkdown } from "react-icons/vsc";
 import ActionsNav from "./ActionsNav";
 import FilesNav from "./FilesNav";
 import { IoLogoJavascript } from "react-icons/io";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState } from "react";
 
 const Navigation = ({ children }) => {
@@ -12,6 +14,8 @@ const Navigation = ({ children }) => {
   const showFilesHandler = () => {
     setShowFiles((prevState) => !prevState);
   };
+
+  const router = useRouter();
 
   return (
     <>
@@ -33,19 +37,43 @@ const Navigation = ({ children }) => {
                   <p>Portfolio</p>
                 </label>
                 {!showFiles ? (
-                  <div className="px-4 py-1 gap-2 flex flex-col">
-                    <li className="flex items-center gap-2">
-                      <FaReact />
-                      Home.jsx
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <IoLogoJavascript />
-                      Projects.js
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <VscJson />
-                      Contact.json
-                    </li>
+                  <div className="px-4 py-1 gap-2 flex flex-col ">
+                    <Link href="/">
+                      <li
+                        className={`${
+                          router.pathname === "/"
+                            ? "bg-higlighted  rounded-sm "
+                            : null
+                        } flex items-center gap-2 `}
+                      >
+                        <FaReact />
+                        Home.jsx
+                      </li>
+                    </Link>
+                    <Link href="/projects">
+                      <li
+                        className={`${
+                          router.pathname === "/projects"
+                            ? "bg-higlighted"
+                            : null
+                        } flex items-center gap-2`}
+                      >
+                        <IoLogoJavascript />
+                        Projects.js
+                      </li>
+                    </Link>
+                    <Link href="/contact">
+                      <li
+                        className={`${
+                          router.pathname === "/contact"
+                            ? "bg-higlighted"
+                            : null
+                        } flex items-center  gap-2`}
+                      >
+                        <VscJson />
+                        Contact.json
+                      </li>
+                    </Link>
                     <li className="flex items-center gap-2">
                       <VscMarkdown />
                       Github.md
