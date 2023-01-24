@@ -23,7 +23,7 @@ const BottomNav = ({}) => {
         </div>
         <div className="flex items-center gap-2 mr-5">
           <TbBrandNextjs />
-          <span className="text-sm ">Powered by Next.Js</span>
+          <span className="text-sm ">Powered by Next.js</span>
           <VscCheckAll />
           <span className="text-sm">Prettier</span>
         </div>

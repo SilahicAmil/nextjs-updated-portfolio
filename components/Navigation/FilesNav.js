@@ -10,7 +10,7 @@ const FilesNav = () => {
   return (
     <>
       <>
-        <div className="flex h-full w-full lg:overflow-x-auto bg-files 2xl:visible xl:visible lg:visible md:visible sm:visible lg:w-full md:w-screen sm:w-screen xsm:w-screen md:h-8 sm:h-8 xsm:h-16  items-center gap-4 ">
+        <div className="flex h-full w-full lg:overflow-x-auto lg:overflow-y-hidden bg-files 2xl:visible xl:visible lg:visible md:visible sm:visible lg:w-full md:w-screen sm:w-screen xsm:w-screen md:h-8 sm:h-8 xsm:h-16  items-center gap-4 ">
           <Link href="/">
             <div
               className={`${
