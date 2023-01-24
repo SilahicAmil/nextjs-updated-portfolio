@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <>
       <TopNav />
       <Navigation>
-        <main className="font-SansPro">{children}</main>
+        <main className="font-SansPro ">{children}</main>
       </Navigation>
       <BottomNav />
     </>
