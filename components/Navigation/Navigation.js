@@ -19,10 +19,10 @@ const Navigation = ({ children }) => {
 
   return (
     <>
-      <div className="flex font-mono">
+      <div className="flex font-JetMono ">
         <ActionsNav />
         <div className="flex flex-col lg:w-64 xl:w-64 2xl:w-64 lg:px-4 xl:px-4 2xl:px-4  py-2 overflow-y-auto max-h-screen  h-[94vh]  bg-navigation 2xl:visible xl:visible lg:visible md:invisible sm:invisible xsm:invisible md:w-0 sm:w-0 xsm:w-0">
-          <h2 className="flex items-center justify-center">Explorer</h2>
+          <h2 className="flex tracking-widest">Explorer</h2>
           <div className="flex flex-col justify-between mt-6">
             <aside>
               <ul>
@@ -31,13 +31,13 @@ const Navigation = ({ children }) => {
                   onClick={showFilesHandler}
                 >
                   <FaChevronRight
-                    className={`${!showFiles ? "rotate-90" : null}`}
+                    className={`${!showFiles ? "rotate-90 " : null}`}
                   />
                   <FaFolder className="text-md text-yellow-200" />
-                  <p className="text-md text-slate-400">Portfolio</p>
+                  <p className="text-md tracking-widest">Portfolio</p>
                 </label>
                 {!showFiles ? (
-                  <div className="px-4 py-1 gap-2 flex flex-col ">
+                  <div className="px-4 py-2 gap-2 flex flex-col ">
                     <Link href="/">
                       <li
                         className={`${

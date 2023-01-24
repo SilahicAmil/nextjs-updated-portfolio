@@ -9,7 +9,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 const BottomNav = ({}) => {
   return (
-    <div className="w-screen h-full  bg-bottom">
+    <div className="w-screen h-full  bg-bottom font-SansPro tracking-widest">
       <ul className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <VscSourceControl className="text-md ml-2" />

@@ -14,12 +14,12 @@ const ActionsNav = ({}) => {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col w-20 justify-between bg-sidebar 2xl:visible xl:visible lg:visible md:visible sm:visible  ">
+    <div className="flex flex-col w-20 justify-between bg-sidebar 2xl:visible xl:visible lg:visible md:visible sm:visible ">
       <div className="py-4 gap-6 flex flex-col">
         <Link href="/">
           <div
             className={` ${
-              router.pathname === "/" ? "bg-higlighted" : null
+              router.pathname === "/" ? "border-l-2" : null
             } flex items-center h-8 justify-center`}
           >
             <VscFiles className="text-2xl" />
@@ -31,9 +31,7 @@ const ActionsNav = ({}) => {
         <Link href="/projects">
           <div
             className={`${
-              router.pathname === "/projects"
-                ? "bg-higlighted rounded-md"
-                : null
+              router.pathname === "/projects" ? "border-l-2" : null
             } flex items-center h-8 justify-center`}
           >
             <VscExtensions className="text-2xl" />
@@ -42,7 +40,7 @@ const ActionsNav = ({}) => {
         <Link href="/contact">
           <div
             className={`${
-              router.pathname === "/contact" ? "bg-higlighted" : null
+              router.pathname === "/contact" ? "border-l-2" : null
             } flex items-center h-8 justify-center `}
           >
             <VscJson className="text-2xl " />

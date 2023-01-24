@@ -21,6 +21,7 @@ module.exports = {
 
     fontFamily: {
       SansPro: ["Source Sans Pro", "sans-pro"],
+      JetMono: ["JetBrains Mono", "jetbrains-mono"],
     },
   },
   plugins: [],
