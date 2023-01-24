@@ -5,7 +5,7 @@ const SplashContent = ({}) => {
   return (
     <>
       <div className="flex flex-col flex-1 h-[90vh] w-full font-JetMono">
-        <div className="flex flex-col m-auto w-7/12">
+        <div className="flex flex-col m-auto lg:w-7/12">
           <div className="flex ml-auto w-6/12  lg:visible md:invisible sm:invisible xsm:invisible">
             <Image
               alt="headshot photo"

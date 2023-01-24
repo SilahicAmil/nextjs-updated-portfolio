@@ -10,7 +10,7 @@ const FilesNav = () => {
   return (
     <>
       <>
-        <div className="flex overflow-x-auto bg-files lg:w-full md:w-screen sm:w-screen xsm:w-screen  md:h-8 sm:h-16 xsm:h-16  items-center gap-4 ">
+        <div className="flex overflow-x-auto  bg-files lg:w-full md:w-screen sm:w-screen xsm:w-screen  md:h-8 sm:h-16 xsm:h-16  items-center gap-4 ">
           <Link href="/">
             <div
               className={`${
