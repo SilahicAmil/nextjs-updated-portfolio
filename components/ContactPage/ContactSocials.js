@@ -1,15 +1,22 @@
 const ContactSocials = ({}) => {
   return (
-    <div className="border-r-2 w-1/2">
-      <h2 className="text-2xl m-8">Check out my Socials!</h2>
-      <div className="m-8 text-lg">
-        <p className="text-2xl ">
+    <div className="lg:border-r-2 w-1/2 flex flex-col ">
+      <h2 className="lg:text-2xl m-8 md:text-xl sm:text-lg xsm:text-md">
+        Check out my Socials!
+      </h2>
+      <div className="mt-4 ml-8 lg:text-2xl md:text-xl sm:text-lg xsm:text-md">
+        <p className="">
           <span className="text-orange-200">.socials </span>&#123;
         </p>
 
-        <p className="px-4 flex gap-2">
+        <p className="px-4 flex gap-2 ">
           email:
-          <a href="mailto:amil@amil.dev" target="_blank" rel="noreferrer">
+          <a
+            href="mailto:amil@amil.dev"
+            target="_blank"
+            rel="noreferrer"
+            className="underline "
+          >
             amil@amil.dev
           </a>
         </p>
@@ -19,6 +26,7 @@ const ContactSocials = ({}) => {
             href="https://github.com/silahicamil"
             target="_blank"
             rel="noreferrer"
+            className="underline"
           >
             silahicamil
           </a>
@@ -29,6 +37,7 @@ const ContactSocials = ({}) => {
             href="https://www.linkedin.com/in/amil-silahic-4b5a01140/"
             target="_blank"
             rel="noreferrer"
+            className="underline"
           >
             amilsilahic
           </a>

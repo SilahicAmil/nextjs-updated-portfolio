@@ -18,8 +18,8 @@ const SplashContent = ({}) => {
               <Link href="/projects" className="bg-red-500">
                 <button className="p-1 w-24 h-12">View Work</button>
               </Link>
-              <Link href="/about" className="border-lime-200 border-2">
-                <button className=" p-1 w-24 h-12">About</button>
+              <Link href="/contact" className="border-lime-200 border-2">
+                <button className=" p-1 w-24 h-12">Contact</button>
               </Link>
             </div>
           </div>
