@@ -1,4 +1,7 @@
+import { VscJson, VscMarkdown } from "react-icons/vsc";
+
 import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -21,15 +24,15 @@ const FilesNav = () => {
               router.pathname === "/projects" ? "border-b-2" : null
             } flex h-8 items-center p2 gap-2 w-40 justify-center`}
           >
-            <FaReact />
+            <IoLogoJavascript />
             <Link href="/projects">Projects.js</Link>
           </div>
           <div className="flex h-8 items-center p-2 gap-2 w-40 justify-center">
-            <FaReact />
+            <VscJson />
             About.json
           </div>
           <div className="flex h-8 items-center p-2 gap-2 w-40 justify-center">
-            <FaReact />
+            <VscMarkdown />
             Github.md
           </div>
         </div>
