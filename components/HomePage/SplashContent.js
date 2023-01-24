@@ -6,6 +6,16 @@ const SplashContent = ({}) => {
     <>
       <div className="flex flex-col flex-1 h-[90vh] w-full">
         <div className="flex flex-col m-auto w-1/2">
+          <div className="flex ml-auto w-6/12  lg:visible md:invisible sm:invisible xsm:invisible">
+            <Image
+              alt="headshot photo"
+              src="/images/updated-profile.png"
+              width={250}
+              height={250}
+              className="rounded-full"
+              layout="repsonsive"
+            />
+          </div>
           <h1 className="text-6xl  mb-3">Amil Silahic</h1>
 
           <p className="text-3xl">Full Stack Web Developer</p>
