@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const SplashContent = ({}) => {
   return (
     <>
@@ -13,8 +15,12 @@ const SplashContent = ({}) => {
 
             <p className="text-3xl">Full Stack Web Developer</p>
             <div className="flex gap-8 p-2">
-              <button className=" p-1 w-24 h-12">View Work</button>
-              <button className="  p-1 w-24 h-12">About</button>
+              <Link href="/projects" className="bg-red-500">
+                <button className="p-1 w-24 h-12">View Work</button>
+              </Link>
+              <Link href="/about" className="border-lime-200 border-2">
+                <button className=" p-1 w-24 h-12">About</button>
+              </Link>
             </div>
           </div>
         </div>
