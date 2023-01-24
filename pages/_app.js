@@ -12,17 +12,17 @@ export default function App({ Component, pageProps, router }) {
 
   return (
     <>
-      <motion.div
-        key={router.route}
-        initial="hidden"
-        animate="enter"
-        exit="exit"
-        variants={variants}
-      >
-        <Layout>
+      <Layout>
+        <motion.div
+          key={router.route}
+          initial="hidden"
+          animate="enter"
+          exit="exit"
+          variants={variants}
+        >
           <Component {...pageProps} />
-        </Layout>
-      </motion.div>
+        </motion.div>
+      </Layout>
     </>
   );
 }
