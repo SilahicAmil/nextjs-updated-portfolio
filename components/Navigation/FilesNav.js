@@ -29,7 +29,7 @@ const FilesNav = () => {
           </div>
           <div className="flex h-8 items-center p-2 gap-2 w-40 justify-center">
             <VscJson />
-            About.json
+            Contact.json
           </div>
           <div className="flex h-8 items-center p-2 gap-2 w-40 justify-center">
             <VscMarkdown />

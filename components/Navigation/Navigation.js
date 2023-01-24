@@ -44,7 +44,7 @@ const Navigation = ({ children }) => {
                     </li>
                     <li className="flex items-center gap-2">
                       <VscJson />
-                      About.json
+                      Contact.json
                     </li>
                     <li className="flex items-center gap-2">
                       <VscMarkdown />
