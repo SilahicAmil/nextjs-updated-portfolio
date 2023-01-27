@@ -1,6 +1,8 @@
 import Head from "next/head";
 import ProjectCard from "../../components/ProjectsPage/ProjectCard";
 
+const DUMMY_DATA = [{}];
+
 const ProjectsPage = () => {
   return (
     <>
@@ -12,7 +14,7 @@ const ProjectsPage = () => {
           key="title"
         />
       </Head>
-      <div className="m-8  gap-4 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xsm:grid-cols-1 ">
+      <div className="m-8  gap-4 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 xsm:grid-cols-1 ">
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
