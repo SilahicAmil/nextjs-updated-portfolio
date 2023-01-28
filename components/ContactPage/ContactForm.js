@@ -6,9 +6,14 @@ const ContactForm = ({}) => {
   const formRef = useRef();
 
   const [submittedForm, setSubmittedForm] = useState(false);
+  // eventually use use effect to only show
+  // message sent for like 5 secnds after submit
 
   const contactFormSubmitHandler = async (e) => {
     e.preventDefault();
+
+    // need to make API route for this
+    // also to keep keys a secret, but fine for now
 
     emailjs.sendForm(
       "service_4hpeoas",
