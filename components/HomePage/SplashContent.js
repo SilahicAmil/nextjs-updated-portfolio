@@ -20,8 +20,8 @@ const SplashContent = ({}) => {
 
           <p className="text-3xl">Full Stack Web Developer</p>
           <div className="flex gap-8 lg:p-8 md:p-6 sm:p-4 xsm:p-2">
-            <Link href="/projects" className="bg-red-500">
-              <button className="p-1 w-32 h-12 flex items-center justify-center">
+            <Link href="/projects" className="bg-red-500 flex items-center">
+              <button className=" w-32 h-12 flex items-center justify-center">
                 View Work
               </button>
             </Link>
