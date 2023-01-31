@@ -5,7 +5,7 @@ const ProjectCard = ({ imageName, title, description, tags }) => {
   console.log(tags);
 
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-slate-900 ">
+    <div className="max-w-sm overflow-hidden rounded shadow-lg shadow-slate-900 ">
       <Image
         className="w-full"
         src={`/images/${imageName}`}
@@ -14,8 +14,8 @@ const ProjectCard = ({ imageName, title, description, tags }) => {
         height={1000}
       />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-gray-400 text-sm ">{description}</p>
+        <div className="mb-2 text-xl font-bold">{title}</div>
+        <p className="text-sm text-gray-400 ">{description}</p>
       </div>
       <div className="px-6 pt-4 pb-2">
         {tags.map((tag) => {

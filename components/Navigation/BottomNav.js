@@ -9,7 +9,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 const BottomNav = ({}) => {
   return (
-    <div className="w-screen h-full  bg-bottom font-SansPro tracking-widest">
+    <div className="h-full w-screen  bg-bottom font-SansPro tracking-widest">
       <ul className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <VscSourceControl className="text-md ml-2" />
@@ -21,7 +21,7 @@ const BottomNav = ({}) => {
             <span>0</span>
           </div>
         </div>
-        <div className="flex items-center gap-2 mr-5">
+        <div className="mr-5 flex items-center gap-2">
           <TbBrandNextjs />
           <span className="text-sm ">Powered by Next.js</span>
           <VscCheckAll />

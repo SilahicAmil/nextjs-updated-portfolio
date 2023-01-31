@@ -4,9 +4,9 @@ import Link from "next/link";
 const SplashContent = ({}) => {
   return (
     <>
-      <div className="flex flex-col flex-1 h-[90vh] w-full font-JetMono">
-        <div className="flex flex-col m-auto lg:w-7/12">
-          <div className="flex ml-auto w-6/12  lg:visible md:invisible sm:invisible xsm:invisible">
+      <div className="flex h-[90vh] w-full flex-1 flex-col font-JetMono">
+        <div className="m-auto flex flex-col lg:w-7/12">
+          <div className="ml-auto flex w-6/12  xsm:invisible sm:invisible md:invisible lg:visible">
             <Image
               alt="headshot photo"
               src="/images/updated-profile.png"
@@ -16,17 +16,17 @@ const SplashContent = ({}) => {
               layout="repsonsive"
             />
           </div>
-          <h1 className="text-6xl  mb-3 ">Amil Silahic</h1>
+          <h1 className="mb-3  text-6xl ">Amil Silahic</h1>
 
           <p className="text-3xl">Full Stack Web Developer</p>
-          <div className="flex gap-8 lg:p-8 md:p-6 sm:p-4 xsm:p-2">
-            <Link href="/projects" className="bg-red-500 flex items-center">
-              <button className=" w-32 h-12 flex items-center justify-center">
+          <div className="flex gap-8 xsm:p-2 sm:p-4 md:p-6 lg:p-8">
+            <Link href="/projects" className="flex items-center bg-red-500">
+              <button className=" flex h-12 w-32 items-center justify-center">
                 View Work
               </button>
             </Link>
-            <Link href="/contact" className="border-lime-200 border-2">
-              <button className=" p-1 w-32 h-12 flex items-center justify-center">
+            <Link href="/contact" className="border-2 border-lime-200">
+              <button className=" flex h-12 w-32 items-center justify-center p-1">
                 Contact
               </button>
             </Link>

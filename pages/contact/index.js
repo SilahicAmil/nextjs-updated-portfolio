@@ -4,7 +4,7 @@ import ContactSocials from "../../components/ContactPage/ContactSocials";
 const ContactPage = ({}) => {
   return (
     <>
-      <div className="justify-center w-full   font-bold lg:flex flex-1 md:flex  sm:flex xsm:inline-block">
+      <div className="w-full flex-1 justify-center font-bold xsm:inline-block sm:flex  md:flex lg:flex">
         <ContactSocials />
 
         <ContactForm />

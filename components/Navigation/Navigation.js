@@ -21,13 +21,13 @@ const Navigation = ({ children }) => {
     <>
       <div className="flex font-JetMono ">
         <ActionsNav />
-        <div className="flex flex-col lg:w-64 xl:w-64 2xl:w-64 lg:px-4 xl:px-4 2xl:px-4  py-2 overflow-y-auto max-h-screen  h-[94vh]  bg-navigation 2xl:visible xl:visible lg:visible md:invisible sm:invisible xsm:invisible md:w-0 sm:w-0 xsm:w-0">
+        <div className="flex h-[94vh] max-h-screen flex-col overflow-y-auto bg-navigation py-2 xsm:invisible  xsm:w-0 sm:invisible sm:w-0  md:invisible  md:w-0 lg:visible lg:w-64 lg:px-4 xl:visible xl:w-64 xl:px-4 2xl:visible 2xl:w-64 2xl:px-4">
           <h2 className="flex tracking-widest">Explorer</h2>
-          <div className="flex flex-col justify-between mt-6">
+          <div className="mt-6 flex flex-col justify-between">
             <aside>
               <ul>
                 <label
-                  className="flex items-center cursor-pointer gap-2"
+                  className="flex cursor-pointer items-center gap-2"
                   onClick={showFilesHandler}
                 >
                   <FaChevronRight
@@ -37,12 +37,12 @@ const Navigation = ({ children }) => {
                   <p className="text-md tracking-widest">Portfolio</p>
                 </label>
                 {!showFiles ? (
-                  <div className="px-4 py-2 gap-2 flex flex-col ">
+                  <div className="flex flex-col gap-2 px-4 py-2 ">
                     <Link href="/">
                       <li
                         className={`${
                           router.pathname === "/"
-                            ? "bg-higlighted  rounded-sm "
+                            ? "rounded-sm  bg-higlighted "
                             : null
                         } flex items-center gap-2 `}
                       >
@@ -58,7 +58,7 @@ const Navigation = ({ children }) => {
                             : null
                         } flex items-center gap-2`}
                       >
-                        <IoLogoJavascript className="text-orange-300 text-lg" />
+                        <IoLogoJavascript className="text-lg text-orange-300" />
                         Projects.js
                       </li>
                     </Link>
@@ -70,7 +70,7 @@ const Navigation = ({ children }) => {
                             : null
                         } flex items-center  gap-2`}
                       >
-                        <VscJson className="text-orange-300 text-lg" />
+                        <VscJson className="text-lg text-orange-300" />
                         Contact.json
                       </li>
                     </Link>
@@ -85,7 +85,7 @@ const Navigation = ({ children }) => {
           </div>
         </div>
 
-        <div className="w-full h-full  overflow-y-auto">
+        <div className="h-full w-full  overflow-y-auto">
           <div>
             <FilesNav />
             {children}

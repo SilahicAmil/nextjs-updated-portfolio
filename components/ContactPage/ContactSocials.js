@@ -2,11 +2,11 @@ import ContactSocialsInfo from "./ContactSocialsInfo";
 
 const ContactSocials = ({}) => {
   return (
-    <div className="lg:border-r-2 border-orange-200 w-1/2 flex flex-col ">
-      <h2 className="lg:text-2xl m-8 md:text-xl sm:text-lg xsm:text-md">
+    <div className="flex w-1/2 flex-col border-orange-200 lg:border-r-2 ">
+      <h2 className="xsm:text-md m-8 sm:text-lg md:text-xl lg:text-2xl">
         Check out my Socials!
       </h2>
-      <div className="mt-4 ml-8 lg:text-2xl md:text-xl sm:text-lg xsm:text-md">
+      <div className="xsm:text-md mt-4 ml-8 sm:text-lg md:text-xl lg:text-2xl">
         <ContactSocialsInfo />
       </div>
     </div>

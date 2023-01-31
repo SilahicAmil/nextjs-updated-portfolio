@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const TopNav = () => {
   return (
-    <section className="w-screen font-SansPro lg:h-8 flex items-center justify-center  bg-topnav  2xl:visible xl:visible lg:visible md:invisible sm:invisible xsm:invisible md:h-0 sm:h-0 xsm:h-0">
-      <span className="flex mr-3 ml-1">
+    <section className="flex w-screen items-center justify-center bg-topnav font-SansPro  xsm:invisible  xsm:h-0 sm:invisible sm:h-0 md:invisible md:h-0 lg:visible lg:h-8 xl:visible 2xl:visible">
+      <span className="mr-3 ml-1 flex">
         <Image
           src="/images/vscode_logo.png"
           alt="vs code logo"
@@ -11,7 +11,7 @@ const TopNav = () => {
           width={15}
         />
       </span>
-      <div className="flex flex-1 mr-auto gap-3">
+      <div className="mr-auto flex flex-1 gap-3">
         <p>File</p>
         <p>Edit</p>
         <p>View</p>

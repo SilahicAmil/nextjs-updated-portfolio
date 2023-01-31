@@ -39,7 +39,7 @@ const ProjectsPage = () => {
           key="title"
         />
       </Head>
-      <div className="m-8  gap-4 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 xsm:grid-cols-1 ">
+      <div className="m-8 grid gap-4 xsm:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 ">
         {DUMMY_DATA.map((item) => {
           return (
             <ProjectCard

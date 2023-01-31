@@ -10,12 +10,12 @@ const FilesNav = () => {
   return (
     <>
       <>
-        <div className="flex overflow-x-auto  bg-files lg:w-full md:w-screen sm:w-screen xsm:w-screen  md:h-8 sm:h-16 xsm:h-16  items-center gap-4 ">
+        <div className="flex items-center  gap-4 overflow-x-auto bg-files xsm:h-16 xsm:w-screen  sm:h-16 sm:w-screen md:h-8  md:w-screen lg:w-full ">
           <Link href="/">
             <div
               className={`${
                 router.pathname === "/" ? "lg:border-b-2" : null
-              } flex h-8 items-center p2 gap-2 w-40 justify-center`}
+              } p2 flex h-8 w-40 items-center justify-center gap-2`}
             >
               <FaReact className="text-lg text-blue-400" />
               Home.jsx
@@ -25,7 +25,7 @@ const FilesNav = () => {
             <div
               className={`${
                 router.pathname === "/projects" ? "lg:border-b-2" : null
-              } flex h-8 items-center p2 gap-2 w-40 justify-center`}
+              } p2 flex h-8 w-40 items-center justify-center gap-2`}
             >
               <IoLogoJavascript className="text-lg text-orange-300" />
               Projects.js
@@ -35,13 +35,13 @@ const FilesNav = () => {
             <div
               className={`${
                 router.pathname === "/contact" ? "lg:border-b-2" : null
-              } flex h-8 items-center p-2 gap-2 w-40 justify-center`}
+              } flex h-8 w-40 items-center justify-center gap-2 p-2`}
             >
               <VscJson className="text-lg text-orange-300" />
               Contact.json
             </div>
           </Link>
-          <div className="flex h-8 items-center p-2 gap-2 w-40 justify-center">
+          <div className="flex h-8 w-40 items-center justify-center gap-2 p-2">
             <VscMarkdown className="text-lg text-blue-400" />
             Github.md
           </div>
