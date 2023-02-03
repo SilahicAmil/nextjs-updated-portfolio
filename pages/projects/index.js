@@ -9,14 +9,16 @@ const DUMMY_DATA = [
       "A site similiar to Canvas. Which is mainly used for teachers/educators to upload assignments and give updates about classes.",
     tags: ["Nextjs", "Tailwind", "Supabase", "Typescript"],
     imageName: "scholar-logo-no-bg.png",
+    siteLink: "https://google.com",
   },
   {
     id: 2,
     title: "Giga Sur",
     description:
-      "A site similiar to Canvas. Which is mainly used for teachers/educators to upload assignments and give updates about classes.",
+      "A site that replicates the Mac OS desktop layout. Blend of Big Sur and Ventura OS. Combination of best of both worlds. ",
     tags: ["Nextjs", "Tailwind", "Supabase"],
-    imageName: "scholar-logo-no-bg.png",
+    imageName: "giga-sur.png",
+    siteLink: "https://giga-o15mb2gp7-silahicamil.vercel.app/",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const DUMMY_DATA = [
       "A site similiar to Canvas. Which is mainly used for teachers/educators to upload assignments and give updates about classes.",
     tags: ["React Native", "Tailwind", "MongoDB"],
     imageName: "scholar-logo-no-bg.png",
+    siteLink: "https://google.com",
   },
 ];
 
@@ -48,6 +51,7 @@ const ProjectsPage = () => {
               description={item.description}
               tags={item.tags}
               imageName={item.imageName}
+              siteLink={item.siteLink}
             />
           );
         })}
