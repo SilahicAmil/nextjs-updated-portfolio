@@ -1,7 +1,11 @@
 import Resume from "../../components/ResumePage/Resume";
 
 const ResumePage = ({}) => {
-  return <Resume />;
+  return (
+    <div className="h-full">
+      <Resume />
+    </div>
+  );
 };
 
 export default ResumePage;
