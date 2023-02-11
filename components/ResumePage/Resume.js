@@ -13,14 +13,15 @@ const Resume = ({}) => {
   }
 
   return (
-    <div className="m-4 flex h-[90vh]  justify-center  overflow-x-hidden overflow-y-hidden">
-      <div className="flex h-96 w-full">
+    <div className="m-4 flex h-[90vh] w-11/12 overflow-x-hidden overflow-y-hidden">
+      <div className="flex w-full overflow-y-hidden">
         <Document
           file="/UPDATED-RESUME.pdf"
           onLoadSuccess={onDocumentLoadSuccess}
           onLoadError={console.error}
+          className="w-full"
         >
-          <Page pageNumber={pageNumber} />
+          <Page pageNumber={pageNumber} className="" />
         </Document>
       </div>
     </div>
