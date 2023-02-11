@@ -6,7 +6,7 @@ const ProjectCard = ({ imageName, title, description, tags, siteLink }) => {
   console.log(tags);
 
   return (
-    <div className="max-w-sm overflow-hidden rounded shadow-lg shadow-slate-900 ">
+    <div className="flex h-full flex-col overflow-auto rounded shadow-lg shadow-slate-900 ">
       <Image
         className="h-1/2 w-full"
         src={`/images/${imageName}`}
@@ -22,7 +22,7 @@ const ProjectCard = ({ imageName, title, description, tags, siteLink }) => {
         </div>
         <p className="text-sm text-gray-400 ">{description}</p>
       </div>
-      <div className="px-6 pt-4 pb-2">
+      <div className="mb-2 px-4 pt-2">
         {tags.map((tag) => {
           return <ProjectTags key={tag.id}>{tag}</ProjectTags>;
         })}
