@@ -54,7 +54,7 @@ const Navigation = ({ children }) => {
                       <li
                         className={`${
                           router.pathname === "/projects"
-                            ? "bg-higlighted"
+                            ? "rounded-sm bg-higlighted"
                             : null
                         } flex items-center gap-2`}
                       >
@@ -66,7 +66,7 @@ const Navigation = ({ children }) => {
                       <li
                         className={`${
                           router.pathname === "/contact"
-                            ? "bg-higlighted"
+                            ? "rounded-sm bg-higlighted"
                             : null
                         } flex items-center  gap-2`}
                       >
@@ -74,10 +74,18 @@ const Navigation = ({ children }) => {
                         Contact.json
                       </li>
                     </Link>
-                    <li className="flex items-center gap-2">
-                      <VscMarkdown className="text-lg text-blue-400" />
-                      Resume.md
-                    </li>
+                    <Link href="/resume">
+                      <li
+                        className={`${
+                          router.pathname === "/resume"
+                            ? "rounded-sm bg-higlighted"
+                            : null
+                        } flex items-center  gap-2`}
+                      >
+                        <VscMarkdown className="text-lg text-blue-400" />
+                        Resume.md
+                      </li>
+                    </Link>
                   </div>
                 ) : null}
               </ul>

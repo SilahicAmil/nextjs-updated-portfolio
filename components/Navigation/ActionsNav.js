@@ -2,7 +2,6 @@ import {
   VscAccount,
   VscExtensions,
   VscFiles,
-  VscGithubAlt,
   VscJson,
   VscMarkdown,
   VscSettingsGear,
