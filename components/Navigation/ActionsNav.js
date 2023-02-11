@@ -4,6 +4,7 @@ import {
   VscFiles,
   VscGithubAlt,
   VscJson,
+  VscMarkdown,
   VscSettingsGear,
 } from "react-icons/vsc";
 
@@ -19,19 +20,26 @@ const ActionsNav = ({}) => {
         <Link href="/">
           <div
             className={` ${
-              router.pathname === "/" ? "border-l-2" : null
+              router.pathname === "/" ? "border-r-2" : null
             } flex h-8 items-center justify-center`}
           >
             <VscFiles className="text-2xl" />
           </div>
         </Link>
-        <div className="flex h-8 items-center justify-center ">
-          <VscGithubAlt className="text-2xl" />
-        </div>
+        <Link
+          href="/resume"
+          className={`${
+            router.pathname === "/resume" ? "border-r-2" : null
+          } flex h-8 items-center justify-center`}
+        >
+          <div className="flex h-8 items-center justify-center ">
+            <VscMarkdown className="text-2xl" />
+          </div>
+        </Link>
         <Link href="/projects">
           <div
             className={`${
-              router.pathname === "/projects" ? "border-l-2" : null
+              router.pathname === "/projects" ? "border-r-2" : null
             } flex h-8 items-center justify-center`}
           >
             <VscExtensions className="text-2xl" />
@@ -40,7 +48,7 @@ const ActionsNav = ({}) => {
         <Link href="/contact">
           <div
             className={`${
-              router.pathname === "/contact" ? "border-l-2" : null
+              router.pathname === "/contact" ? "border-r-2" : null
             } flex h-8 items-center justify-center `}
           >
             <VscJson className="text-2xl " />

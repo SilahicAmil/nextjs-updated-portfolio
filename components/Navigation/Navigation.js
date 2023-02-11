@@ -76,7 +76,7 @@ const Navigation = ({ children }) => {
                     </Link>
                     <li className="flex items-center gap-2">
                       <VscMarkdown className="text-lg text-blue-400" />
-                      Github.md
+                      Resume.md
                     </li>
                   </div>
                 ) : null}
