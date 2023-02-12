@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <>
       <TopNav />
       <Navigation>
-        <main className="">{children}</main>
+        <main className="h-full overflow-x-hidden">{children}</main>
       </Navigation>
       <BottomNav />
     </>
