@@ -32,12 +32,8 @@ const SplashContent = ({}) => {
             </Link>
           </div>
           {/* not sure if I want to keep visibility on all or just lg/md */}
-          <div className="mr-auto ml-28 flex w-32 items-center justify-center bg-green-300 p-1 text-black xsm:invisible  sm:invisible md:visible lg:visible">
-            <Link
-              href="/UPDATED-RESUME.pdf"
-              download="/UPDATED-RESUME.pdf"
-              target="_blank"
-            >
+          <div className="w-42  ml-28 mr-auto flex items-center justify-center bg-green-300 p-2 text-black ">
+            <Link href="/UPDATED-RESUME.pdf" download target="_blank">
               Download Resume
             </Link>
           </div>
