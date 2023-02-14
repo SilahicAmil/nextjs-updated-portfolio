@@ -4,7 +4,6 @@ import emailjs from "@emailjs/browser";
 
 const ContactForm = ({}) => {
   const formRef = useRef();
-  console.log(process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY);
 
   const [submittedForm, setSubmittedForm] = useState(false);
   // eventually use use effect to only show
@@ -17,10 +16,10 @@ const ContactForm = ({}) => {
     // also to keep keys a secret, but fine for now
 
     emailjs.sendForm(
-      process.env.NEXT_PUBLIC_EMAIL_SERVICE_KEY,
-      process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_KEY,
+      "service_4hpeoas",
+      "template_4jmafdm",
       formRef.current,
-      process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY
+      "SCNS9M5weTyzUQKKH"
     );
     setSubmittedForm(true);
     formRef.current.reset();
