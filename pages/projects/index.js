@@ -7,16 +7,16 @@ const DUMMY_DATA = [
     title: "Scholar",
     description:
       "A site similiar to Canvas. Which is mainly used for teachers/educators to upload assignments and give updates about classes.",
-    tags: ["Nextjs", "Tailwind", "Supabase", "Typescript"],
+    tags: ["Nextjs", "React", "Tailwind", "MongoDB", "DaisyUI"],
     imageName: "scholar-logo-no-bg.png",
-    siteLink: "https://google.com",
+    siteLink: "https://nextjs-canvas-classroom.vercel.app/",
   },
   {
     id: 2,
     title: "Giga Sur",
     description:
       "A site that replicates the Mac OS desktop layout. Blend of Big Sur and Ventura OS. Combination of best of both worlds. ",
-    tags: ["Nextjs", "Tailwind", "Supabase"],
+    tags: ["React", "Vite", "Tailwind"],
     imageName: "giga-sur.png",
     siteLink: "https://giga-o15mb2gp7-silahicamil.vercel.app/",
   },
