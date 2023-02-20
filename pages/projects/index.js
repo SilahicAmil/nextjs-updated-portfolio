@@ -7,7 +7,7 @@ const DUMMY_DATA = [
     title: "Scholar",
     description:
       "A site similiar to Canvas. Which is mainly used for teachers/educators to upload assignments and give updates about classes.",
-    tags: ["Nextjs", "React", "Tailwind", "MongoDB", "DaisyUI"],
+    tags: ["Nextjs", "React", "Tailwind", "MongoDB", "Supabase", "DaisyUI"],
     imageName: "scholar-logo-no-bg.png",
     siteLink: "https://nextjs-canvas-classroom.vercel.app/",
   },
