@@ -18,7 +18,7 @@ const DUMMY_DATA = [
       "A site that replicates the Mac OS desktop layout. Blend of Big Sur and Ventura OS. Combination of best of both worlds. ",
     tags: ["React", "Vite", "Tailwind"],
     imageName: "giga-sur.png",
-    siteLink: "https://giga-o15mb2gp7-silahicamil.vercel.app/",
+    siteLink: "https://giga-sur.vercel.app/",
   },
   {
     id: 3,
