@@ -12,9 +12,6 @@ const ContactForm = ({}) => {
   const contactFormSubmitHandler = async (e) => {
     e.preventDefault();
 
-    // need to make API route for this
-    // also to keep keys a secret, but fine for now
-
     emailjs.sendForm(
       process.env.NEXT_PUBLIC_EMAIL_SERVICE_KEY,
       process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_KEY,
