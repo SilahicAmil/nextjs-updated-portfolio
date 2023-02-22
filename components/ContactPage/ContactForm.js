@@ -16,10 +16,10 @@ const ContactForm = ({}) => {
     // also to keep keys a secret, but fine for now
 
     emailjs.sendForm(
-      "service_4hpeoas",
-      "template_4jmafdm",
+      process.env.NEXT_PUBLIC_EMAIL_SERVICE_KEY,
+      process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_KEY,
       formRef.current,
-      "SCNS9M5weTyzUQKKH"
+      process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY
     );
     setSubmittedForm(true);
     formRef.current.reset();
