@@ -51,7 +51,7 @@ const ContactForm = ({}) => {
         </div>
       </form>
 
-      {submittedForm ? <div>Message Sent!</div> : undefined}
+      {submittedForm ? <div className="pt-8">Message Sent!</div> : undefined}
     </div>
   );
 };
