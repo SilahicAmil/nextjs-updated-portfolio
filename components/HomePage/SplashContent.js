@@ -33,7 +33,7 @@ const SplashContent = ({}) => {
           </div>
 
           <div className="w-42  ml-28 mr-auto flex items-center justify-center bg-green-300 p-2 text-black ">
-            <Link href="/AMIL-SILAHIC-RESUME.pdf" download target="_blank">
+            <Link href="/Amil-Silahic-Resume-Feb.pdf" download target="_blank">
               Download Resume
             </Link>
           </div>
