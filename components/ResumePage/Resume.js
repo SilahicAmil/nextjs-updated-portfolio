@@ -13,8 +13,8 @@ const Resume = ({}) => {
   }
 
   return (
-    <div className="m-4 flex h-[90vh] w-11/12 overflow-x-hidden overflow-y-hidden">
-      <div className="flex w-full overflow-y-hidden">
+    <div className="m-4 flex h-[90vh] w-full">
+      <div className="flex h-full w-full">
         <Document
           file="/Amil-Silahic-Resume-Feb.pdf"
           onLoadSuccess={onDocumentLoadSuccess}
