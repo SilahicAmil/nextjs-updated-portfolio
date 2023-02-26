@@ -26,14 +26,18 @@ const SplashContent = ({}) => {
               </button>
             </Link>
             <Link href="/contact" className="border-2 border-lime-200">
-              <button className=" flex h-12 w-32 items-center justify-center p-1">
+              <button className="flex h-12 w-32 items-center justify-center p-1">
                 Contact
               </button>
             </Link>
           </div>
 
           <div className="w-42 ml-28 mr-auto flex items-center justify-center bg-green-300 p-2 text-black ">
-            <Link href="/Amil-Silahic-Resume-Feb.pdf" download target="_blank">
+            <Link
+              href="/Amil-Silahic-Resume-March.pdf"
+              download
+              target="_blank"
+            >
               Download Resume
             </Link>
           </div>
