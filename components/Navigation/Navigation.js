@@ -42,7 +42,7 @@ const Navigation = ({ children }) => {
                       <li
                         className={`${
                           router.pathname === "/"
-                            ? "rounded-sm  bg-higlighted "
+                            ? "rounded-sm  bg-slate-400 "
                             : null
                         } flex items-center gap-2 `}
                       >
@@ -54,7 +54,7 @@ const Navigation = ({ children }) => {
                       <li
                         className={`${
                           router.pathname === "/projects"
-                            ? "rounded-sm bg-higlighted"
+                            ? "rounded-sm bg-slate-400"
                             : null
                         } flex items-center gap-2`}
                       >
@@ -66,7 +66,7 @@ const Navigation = ({ children }) => {
                       <li
                         className={`${
                           router.pathname === "/contact"
-                            ? "rounded-sm bg-higlighted"
+                            ? "rounded-sm bg-slate-400"
                             : null
                         } flex items-center  gap-2`}
                       >
@@ -78,7 +78,7 @@ const Navigation = ({ children }) => {
                       <li
                         className={`${
                           router.pathname === "/resume"
-                            ? "rounded-sm bg-higlighted"
+                            ? "rounded-sm bg-slate-400"
                             : null
                         } flex items-center  gap-2`}
                       >
