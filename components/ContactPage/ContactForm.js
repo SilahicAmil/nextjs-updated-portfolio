@@ -21,7 +21,8 @@ const ContactForm = ({}) => {
 
     if (
       nameRefValue.trim() === "" ||
-      emailRefValue !== "@" ||
+      emailRefValue.trim() === "" ||
+      !emailRefValue.includes("@") ||
       messageRefValue.trim() === ""
     ) {
       return toast.error("Invalid Input(s)");
