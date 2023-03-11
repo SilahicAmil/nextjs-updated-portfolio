@@ -22,12 +22,12 @@ const DUMMY_DATA = [
   },
   {
     id: 3,
-    title: "Rent(X)",
+    title: "Read(a)Book",
     description:
-      "A site similiar to Canvas. Which is mainly used for teachers/educators to upload assignments and give updates about classes.",
-    tags: ["React Native", "Tailwind", "MongoDB"],
-    imageName: "scholar-logo-no-bg.png",
-    siteLink: "https://google.com",
+      "A free mobile app to listen to audiobooks. API Data is from LibriVox, a place where volunteers read books for others to listen too.",
+    tags: ["React Native", "Expo", "React Native Elements", "Supabase"],
+    imageName: "read-a-book-color.png",
+    siteLink: "https://github.com/SilahicAmil/Read-a-Book",
   },
 ];
 
@@ -42,7 +42,7 @@ const ProjectsPage = () => {
           key="title"
         />
       </Head>
-      <div className="m-8 grid gap-4 xsm:grid-cols-1 sm:grid-cols-2 md:w-full md:grid-cols-2 tablet:grid-cols-2  lg:grid-cols-4">
+      <div className="m-8 grid gap-4 xsm:grid-cols-1 sm:grid-cols-2 tablet:grid-cols-2 md:w-full md:grid-cols-2  lg:grid-cols-4">
         {DUMMY_DATA.map((item) => {
           return (
             <ProjectCard

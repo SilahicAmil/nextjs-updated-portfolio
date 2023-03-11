@@ -8,11 +8,11 @@ const ProjectCard = ({ imageName, title, description, tags, siteLink }) => {
   return (
     <div className="flex h-full w-full  flex-col overflow-auto rounded shadow-lg shadow-slate-900">
       <Image
-        className="h-1/2 w-full"
+        className="h-64 w-full"
         src={`/images/${imageName}`}
         alt={title}
-        width={500}
-        height={500}
+        width={1000}
+        height={1000}
       />
       <div className="px-6 py-4">
         <div className="mb-2 text-xl font-bold underline">
