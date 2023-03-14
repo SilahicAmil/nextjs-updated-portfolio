@@ -25,7 +25,12 @@ const DUMMY_DATA = [
     title: "Read(a)Book",
     description:
       "A free mobile app to listen to audiobooks. API Data is from LibriVox, a place where volunteers read books for others to listen too.",
-    tags: ["React Native", "Expo", "React Native Elements", "Supabase"],
+    tags: [
+      "React Native",
+      "React Native Elements",
+      "React Audio Player",
+      "Supabase",
+    ],
     imageName: "read-a-book-color.png",
     siteLink: "https://github.com/SilahicAmil/Read-a-Book",
   },
