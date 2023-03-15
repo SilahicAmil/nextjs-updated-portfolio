@@ -15,7 +15,7 @@ const DUMMY_DATA = [
     id: 2,
     title: "Giga Sur",
     description:
-      "A site that replicates the Mac OS desktop layout. Blend of Big Sur and Ventura OS. Combination of best of both worlds. ",
+      "A site that replicates the Mac OS desktop layout. Blend of Big Sur and Ventura OS. Combination of best of both worlds. Currently works best on Desktop/Laptop and Tablet.",
     tags: ["React", "Vite", "Tailwind"],
     imageName: "giga-sur.png",
     siteLink: "https://giga-sur.vercel.app/",
