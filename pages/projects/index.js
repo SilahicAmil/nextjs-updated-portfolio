@@ -16,7 +16,7 @@ const DUMMY_DATA = [
     title: "Giga Sur",
     description:
       "A site that replicates the Mac OS desktop layout. Blend of Big Sur and Ventura OS. Combination of best of both worlds. Currently works best on Desktop/Laptop and Tablet.",
-    tags: ["React", "Vite", "Tailwind"],
+    tags: ["React", "Vite", "Tailwind", "React Draggable"],
     imageName: "giga-sur.png",
     siteLink: "https://giga-sur.vercel.app/",
   },
@@ -27,8 +27,9 @@ const DUMMY_DATA = [
       "A free mobile app to listen to audiobooks. API Data is from LibriVox, a place where volunteers read books for others to listen too.",
     tags: [
       "React Native",
+      "React Navigation",
       "React Native Elements",
-      "React Audio Player",
+      "Expo AV",
       "Supabase",
     ],
     imageName: "read-a-book-color.png",
