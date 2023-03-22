@@ -22,11 +22,11 @@ const ProjectCard = ({
         height={1000}
       />
       <div className="px-6 py-4">
-        <div className="mb-2 text-xl font-bold underline ">
+        <div className="mb-2 flex flex-col gap-2 text-xl font-bold underline ">
           <Link href={siteLink} target="_blank">
-            {title}
+            Live Demo: {title}
           </Link>
-          <div className="flex">
+          <div className="">
             <Link href={githubLink} target="_blank" className="ml-auto ">
               Github
             </Link>
