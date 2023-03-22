@@ -9,4 +9,4 @@
 
 <!-- -- Fix Project Cards responsiveness (md-sm) -->
 
--- Look into mnoving this into Astro - since im getting nothing out of NextJS features
+-- Look into mnoving this into Astro - since im getting nothing out of NextJS features - ((still possible))
