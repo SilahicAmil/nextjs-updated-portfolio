@@ -10,6 +10,7 @@ const DUMMY_DATA = [
     tags: ["Nextjs", "React", "Tailwind", "MongoDB", "Supabase", "DaisyUI"],
     imageName: "scholar-logo-no-bg.png",
     siteLink: "https://nextjs-canvas-classroom.vercel.app/",
+    github: "https://github.com/SilahicAmil/nextjs-canvas-classroom",
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ const DUMMY_DATA = [
     tags: ["React", "Vite", "Tailwind", "React Draggable"],
     imageName: "giga-sur.png",
     siteLink: "https://giga-sur.vercel.app/",
+    github: "https://github.com/SilahicAmil/giga-sur",
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ const DUMMY_DATA = [
     ],
     imageName: "read-a-book-color.png",
     siteLink: "https://github.com/SilahicAmil/Read-a-Book",
+    github: "https://github.com/SilahicAmil/Read-a-Book",
   },
 ];
 
@@ -58,6 +61,7 @@ const ProjectsPage = () => {
               tags={item.tags}
               imageName={item.imageName}
               siteLink={item.siteLink}
+              githubLink={item.github}
             />
           );
         })}

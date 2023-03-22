@@ -2,7 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import ProjectTags from "./ProjectTags";
 
-const ProjectCard = ({ imageName, title, description, tags, siteLink }) => {
+const ProjectCard = ({
+  imageName,
+  title,
+  githubLink,
+  description,
+  tags,
+  siteLink,
+}) => {
   console.log(tags);
 
   return (
@@ -15,10 +22,15 @@ const ProjectCard = ({ imageName, title, description, tags, siteLink }) => {
         height={1000}
       />
       <div className="px-6 py-4">
-        <div className="mb-2 text-xl font-bold underline">
+        <div className="mb-2 text-xl font-bold underline ">
           <Link href={siteLink} target="_blank">
             {title}
           </Link>
+          <div className="flex">
+            <Link href={githubLink} target="_blank" className="ml-auto ">
+              Github
+            </Link>
+          </div>
         </div>
         <p className="text-sm text-gray-400 ">{description}</p>
       </div>
