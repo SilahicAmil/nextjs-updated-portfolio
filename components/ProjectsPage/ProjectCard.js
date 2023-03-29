@@ -13,7 +13,7 @@ const ProjectCard = ({
   console.log(tags);
 
   return (
-    <div className="flex h-full w-full  flex-col overflow-auto rounded shadow-lg shadow-slate-900">
+    <div className="flex h-full w-11/12 flex-col overflow-auto rounded shadow-lg shadow-slate-900">
       <Image
         className="h-64 w-full"
         src={`/images/${imageName}`}

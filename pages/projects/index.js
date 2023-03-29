@@ -38,6 +38,16 @@ const DUMMY_DATA = [
     siteLink: "https://github.com/SilahicAmil/Read-a-Book",
     github: "https://github.com/SilahicAmil/Read-a-Book",
   },
+  {
+    id: 4,
+    title: "(Watch)Together",
+    description:
+      "A synchronized video watching experience. Watch videos with friends and family.",
+    tags: ["React", "NextJs", "Socket.io", "Tailwind", "Stripe"],
+    imageName: "w2g-color.png",
+    siteLink: "https://nextjs-w2g.vercel.app/",
+    github: "https://github.com/SilahicAmil/nextjs-w2g",
+  },
 ];
 
 const ProjectsPage = () => {
@@ -51,7 +61,7 @@ const ProjectsPage = () => {
           key="title"
         />
       </Head>
-      <div className="m-8 grid gap-4 xsm:grid-cols-1 sm:grid-cols-2 tablet:grid-cols-2 md:w-full md:grid-cols-2  lg:grid-cols-4">
+      <div className="grid gap-4 xsm:grid-cols-1 xsm:p-1 sm:grid-cols-2 tablet:grid-cols-2 md:w-full md:grid-cols-2  md:p-2  lg:grid-cols-4 lg:p-8">
         {DUMMY_DATA.map((item) => {
           return (
             <ProjectCard
