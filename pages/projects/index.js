@@ -13,7 +13,7 @@ const ProjectsPage = () => {
           key="title"
         />
       </Head>
-      <div className="grid gap-4 xsm:grid-cols-1 xsm:p-1 sm:grid-cols-2 tablet:grid-cols-2 md:w-full md:grid-cols-2  md:p-2  lg:grid-cols-4 lg:p-8">
+      <div className="grid gap-2 xsm:grid-cols-1 xsm:p-1 sm:grid-cols-2 tablet:grid-cols-2 md:w-full md:grid-cols-2  md:p-2  lg:grid-cols-4 lg:p-8">
         {PROJECT_DATA.map((item) => {
           return (
             <ProjectCard
