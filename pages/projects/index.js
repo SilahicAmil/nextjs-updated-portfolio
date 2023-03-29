@@ -14,16 +14,16 @@ const ProjectsPage = () => {
         />
       </Head>
       <div className="grid gap-2 xsm:grid-cols-1 xsm:p-1 sm:grid-cols-2 tablet:grid-cols-2 md:w-full md:grid-cols-2  md:p-2  lg:grid-cols-4 lg:p-8">
-        {PROJECT_DATA.map((item) => {
+        {PROJECT_DATA.map((project) => {
           return (
             <ProjectCard
-              key={item.id}
-              title={item.title}
-              description={item.description}
-              tags={item.tags}
-              imageName={item.imageName}
-              siteLink={item.siteLink}
-              githubLink={item.github}
+              key={project.id}
+              title={project.title}
+              description={project.description}
+              tags={project.tags}
+              imageName={project.imageName}
+              siteLink={project.siteLink}
+              githubLink={project.github}
             />
           );
         })}
