@@ -16,7 +16,7 @@ const Resume = ({}) => {
     <div className="m-4 flex h-[90vh] w-full">
       <div className="flex h-full w-full">
         <Document
-          file="/Amil-Silahic-Final-Resume.pdff"
+          file="/Amil-Silahic-Final-Resume.pdf"
           onLoadSuccess={onDocumentLoadSuccess}
           onLoadError={console.error}
           className="w-full"
