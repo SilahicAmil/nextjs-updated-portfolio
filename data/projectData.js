@@ -40,15 +40,7 @@ export const PROJECT_DATA = [
     title: "(Watch)Together",
     description:
       "A synchronized video watching experience. Watch videos with friends and family.",
-    tags: [
-      "React",
-      "NextJs",
-      "Socket.io",
-      "WebRTC",
-      "PeerJS",
-      "Tailwind",
-      "Stripe",
-    ],
+    tags: ["React", "NextJS", "Socket.io", "Tailwind", "Stripe"],
     imageName: "w2g-color.png",
     siteLink: "https://nextjs-w2g.vercel.app/",
     github: "https://github.com/SilahicAmil/nextjs-w2g",
