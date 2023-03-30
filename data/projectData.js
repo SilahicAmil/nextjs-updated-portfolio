@@ -35,14 +35,14 @@ export const PROJECT_DATA = [
     siteLink: "https://github.com/SilahicAmil/Read-a-Book",
     github: "https://github.com/SilahicAmil/Read-a-Book",
   },
-  {
-    id: 4,
-    title: "(Watch)Together",
-    description:
-      "A synchronized video watching experience. Watch videos with friends and family.",
-    tags: ["React", "NextJS", "Socket.io", "Tailwind", "Stripe", "WebRTC"],
-    imageName: "w2g-color.png",
-    siteLink: "https://nextjs-w2g.vercel.app/",
-    github: "https://github.com/SilahicAmil/nextjs-w2g",
-  },
+  // {
+  //   id: 4,
+  //   title: "(Watch)Together",
+  //   description:
+  //     "A synchronized video watching experience. Watch videos with friends and family.",
+  //   tags: ["React", "NextJS", "Socket.io", "Tailwind", "Stripe", "WebRTC"],
+  //   imageName: "w2g-color.png",
+  //   siteLink: "https://nextjs-w2g.vercel.app/",
+  //   github: "https://github.com/SilahicAmil/nextjs-w2g",
+  // },
 ];
