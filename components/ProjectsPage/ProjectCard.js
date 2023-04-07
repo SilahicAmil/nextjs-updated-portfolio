@@ -15,7 +15,7 @@ const ProjectCard = ({
   return (
     <div className="flex h-full w-11/12 flex-col overflow-auto rounded shadow-lg shadow-slate-900">
       <Image
-        className="h-64 w-full"
+        className="h-64 w-full object-cover"
         src={`/images/${imageName}`}
         alt={title}
         width={1000}

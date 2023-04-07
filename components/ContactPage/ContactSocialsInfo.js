@@ -2,7 +2,8 @@ const ContactSocialsInfo = ({}) => {
   return (
     <>
       <p className="">
-        <span className="text-orange-600">.socials </span>&#123;
+        <span className="text-orange-600">socials&nbsp;=&nbsp;</span>
+        &#91;&#123;
       </p>
 
       <p className="flex gap-2 px-4 ">
@@ -39,7 +40,7 @@ const ContactSocialsInfo = ({}) => {
         </a>
       </p>
       <p>
-        <span>&#125;</span>
+        <span>&#125;&#93;</span>
       </p>
     </>
   );

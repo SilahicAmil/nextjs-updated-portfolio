@@ -4,7 +4,7 @@ export const PROJECT_DATA = [
     title: "Scholar",
     description:
       "A site similiar to Canvas. Which is mainly used for teachers/educators to upload assignments and give updates about classes.",
-    tags: ["Nextjs", "React", "Tailwind", "MongoDB", "Supabase", "DaisyUI"],
+    tags: ["Nextjs", "React", "TailwindCSS", "MongoDB", "Supabase", "DaisyUI"],
     imageName: "scholar-logo-no-bg.png",
     siteLink: "https://nextjs-canvas-classroom.vercel.app/",
     github: "https://github.com/SilahicAmil/nextjs-canvas-classroom",
@@ -14,7 +14,7 @@ export const PROJECT_DATA = [
     title: "Giga Sur",
     description:
       "A site that replicates the Mac OS desktop layout. Blend of Big Sur and Ventura OS. Combination of best of both worlds. Currently works best on Desktop/Laptop and Tablet.",
-    tags: ["React", "Vite", "Tailwind", "React Draggable"],
+    tags: ["React", "Vite", "TailwindCSS", "React Draggable"],
     imageName: "giga-sur.png",
     siteLink: "https://giga-sur.vercel.app/",
     github: "https://github.com/SilahicAmil/giga-sur",
@@ -35,14 +35,14 @@ export const PROJECT_DATA = [
     siteLink: "https://github.com/SilahicAmil/Read-a-Book",
     github: "https://github.com/SilahicAmil/Read-a-Book",
   },
-  // {
-  //   id: 4,
-  //   title: "(Watch)Together",
-  //   description:
-  //     "A synchronized video watching experience. Watch videos with friends and family.",
-  //   tags: ["React", "NextJS", "Socket.io", "Tailwind", "Stripe", "WebRTC"],
-  //   imageName: "w2g-color.png",
-  //   siteLink: "https://nextjs-w2g.vercel.app/",
-  //   github: "https://github.com/SilahicAmil/nextjs-w2g",
-  // },
+  {
+    id: 4,
+    title: "Real Estate",
+    description:
+      "A synchronized video watching experience. Watch videos with friends and family.",
+    tags: ["React", "NextJS", "TailwindCSS", "Stripe", "Supabase"],
+    imageName: "real-estate-color.png",
+    siteLink: "https://next-real-estate-nu.vercel.app/",
+    github: "https://github.com/SilahicAmil/next-real-estate",
+  },
 ];
