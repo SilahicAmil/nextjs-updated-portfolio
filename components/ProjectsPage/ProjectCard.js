@@ -10,8 +10,6 @@ const ProjectCard = ({
   tags,
   siteLink,
 }) => {
-  console.log(tags);
-
   return (
     <div className="flex h-full w-11/12 flex-col overflow-auto rounded shadow-lg shadow-slate-900">
       <Image
