@@ -39,6 +39,17 @@ const ContactSocialsInfo = ({}) => {
           amilsilahic
         </a>
       </p>
+      <p className="flex gap-2 px-4">
+        blog:
+        <a
+          href="https://astro-dev-log.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-orange-300 underline"
+        >
+          amil.dev log
+        </a>
+      </p>
       <p>
         <span>&#125;&#93;</span>
       </p>
