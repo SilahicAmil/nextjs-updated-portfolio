@@ -13,26 +13,31 @@ const SplashContent = ({}) => {
               width={250}
               height={250}
               className="rounded-full"
-              layout="repsonsive"
             />
           </div>
           <h1 className="mb-3  text-6xl ">Amil Silahic</h1>
 
           <p className="ml-4 text-2xl ">Full Stack Web Developer</p>
           <div className="flex gap-8 xsm:p-2 sm:p-4 md:p-6 lg:p-8">
-            <Link href="/projects" className="flex items-center bg-red-500">
+            <Link
+              href="/projects"
+              className="flex items-center bg-red-500 hover:border hover:border-red-500 hover:bg-transparent hover:text-white hover:duration-200"
+            >
               <button className=" flex h-12 w-32 items-center justify-center">
                 View Work
               </button>
             </Link>
-            <Link href="/contact" className="border-2 border-lime-200">
+            <Link
+              href="/contact"
+              className="border-2 border-lime-200  hover:bg-lime-200 hover:text-black hover:duration-200"
+            >
               <button className="flex h-12 w-32 items-center justify-center p-1">
                 Contact
               </button>
             </Link>
           </div>
 
-          <div className="w-42 ml-28 mr-auto flex items-center justify-center bg-green-300 p-2 text-black ">
+          <div className="w-42  ml-28 mr-auto flex items-center justify-center bg-green-300 p-4 text-black hover:border hover:border-green-300 hover:bg-transparent hover:text-white hover:duration-200">
             <Link href="/Amil-Silahic-Resume.pdf" download target="_blank">
               Download Resume
             </Link>

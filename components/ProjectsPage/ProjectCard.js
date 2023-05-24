@@ -34,7 +34,7 @@ const ProjectCard = ({
       </div>
       <div className="mb-2 px-4 pt-2">
         {tags.map((tag) => {
-          return <ProjectTags key={tag.id}>{tag}</ProjectTags>;
+          return <ProjectTags key={tag}>{tag}</ProjectTags>;
         })}
       </div>
     </div>
