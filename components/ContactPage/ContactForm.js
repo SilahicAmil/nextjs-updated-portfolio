@@ -85,7 +85,7 @@ const ContactForm = ({}) => {
               ref={messageRef}
             />
           </div>
-          <div className="mt-4 flex h-8 w-24 items-center justify-center border-2 border-lime-200">
+          <div className="mt-4 flex h-12 w-32 items-center justify-center border-2 border-lime-200  hover:border-none  hover:bg-lime-200 hover:text-black hover:duration-200">
             <button type="submit">Submit</button>
           </div>
         </form>
