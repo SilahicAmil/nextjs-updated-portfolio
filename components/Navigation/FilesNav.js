@@ -15,7 +15,7 @@ const FilesNav = () => {
             <div
               className={`${
                 router.pathname === "/" ? "lg:border-b-2" : null
-              } p2 flex h-8 w-40 items-center justify-center gap-2 p-2 hover:bg-gray-600 hover:duration-200`}
+              } p2 flex h-8 w-40 items-center justify-center gap-2 p-2  hover:rounded-t-md hover:bg-gray-600 hover:duration-200`}
             >
               <FaReact className="text-lg text-blue-400" />
               Home.jsx
@@ -25,7 +25,7 @@ const FilesNav = () => {
             <div
               className={`${
                 router.pathname === "/projects" ? "lg:border-b-2" : null
-              } p2 flex h-8 w-40 items-center justify-center gap-2 hover:bg-gray-600 hover:duration-200`}
+              } p2 flex h-8 w-40 items-center justify-center gap-2 hover:rounded-t-md hover:bg-gray-600 hover:duration-200`}
             >
               <IoLogoJavascript className="text-lg text-orange-300" />
               Projects.js
@@ -35,7 +35,7 @@ const FilesNav = () => {
             <div
               className={`${
                 router.pathname === "/contact" ? "lg:border-b-2" : null
-              } flex h-8 w-40 items-center justify-center gap-2 p-2 hover:bg-gray-600 hover:duration-200`}
+              } flex h-8 w-40 items-center justify-center gap-2 p-2 hover:rounded-t-md hover:bg-gray-600 hover:duration-200`}
             >
               <VscJson className="text-lg text-orange-300" />
               Contact.json
@@ -45,7 +45,7 @@ const FilesNav = () => {
             <div
               className={`${
                 router.pathname === "/resume" ? "lg:border-b-2" : null
-              } flex h-8 w-40 items-center justify-center gap-2 p-2 hover:bg-gray-600 hover:duration-200`}
+              } flex h-8 w-40 items-center justify-center gap-2 p-2 hover:rounded-t-md hover:bg-gray-600 hover:duration-200`}
             >
               <VscMarkdown className="text-lg text-blue-400" />
               Resume.md
