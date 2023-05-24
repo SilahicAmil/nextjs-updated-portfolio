@@ -39,7 +39,7 @@ export const PROJECT_DATA = [
     id: 4,
     title: "Real Estate",
     description:
-      "A synchronized video watching experience. Watch videos with friends and family.",
+      "A High-end apartment rental site. Connecting landlords to renters in the easiest way possible! ",
     tags: ["React", "NextJS", "TailwindCSS", "Stripe", "Supabase"],
     imageName: "real-estate-color.png",
     siteLink: "https://next-real-estate-nu.vercel.app/",
