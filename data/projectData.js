@@ -11,13 +11,13 @@ export const PROJECT_DATA = [
   },
   {
     id: 2,
-    title: "Giga Sur",
+    title: "Dev Blog",
     description:
-      "A site that replicates the Mac OS desktop layout. Blend of Big Sur and Ventura OS. Combination of best of both worlds. Currently works best on Desktop/Laptop and Tablet.",
-    tags: ["React", "Vite", "TailwindCSS", "React Draggable"],
-    imageName: "giga-sur.png",
-    siteLink: "https://giga-sur.vercel.app/",
-    github: "https://github.com/SilahicAmil/giga-sur",
+      "Personal Dev Blog. Documentating life as a junior developer and varioues rambles. Providing insight into the life of a 22 year old figuring out development.",
+    tags: ["Astro", "Tailwind", "jQuery", "Astro Icons"],
+    imageName: "main-logo-white.png",
+    siteLink: "https://astro-dev-log.vercel.app/",
+    github: "https://github.com/SilahicAmil/astro-dev-log",
   },
   {
     id: 3,
@@ -44,5 +44,15 @@ export const PROJECT_DATA = [
     imageName: "real-estate-color.png",
     siteLink: "https://next-real-estate-nu.vercel.app/",
     github: "https://github.com/SilahicAmil/next-real-estate",
+  },
+  {
+    id: 5,
+    title: "Giga Sur",
+    description:
+      "A site that replicates the Mac OS desktop layout. Blend of Big Sur and Ventura OS. Combination of best of both worlds. Currently works best on Desktop/Laptop and Tablet.",
+    tags: ["React", "Vite", "TailwindCSS", "React Draggable"],
+    imageName: "giga-sur.png",
+    siteLink: "https://giga-sur.vercel.app/",
+    github: "https://github.com/SilahicAmil/giga-sur",
   },
 ];
