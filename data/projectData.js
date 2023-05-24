@@ -14,7 +14,7 @@ export const PROJECT_DATA = [
     title: "Dev Blog",
     description:
       "Personal Dev Blog. Documentating life as a junior developer and varioues rambles. Providing insight into the life of a 22 year old figuring out development.",
-    tags: ["Astro", "Tailwind", "jQuery", "Astro Icons"],
+    tags: ["Astro", "Tailwind", "jQuery", "Astro Icons", "Markdown"],
     imageName: "main-logo-white.png",
     siteLink: "https://astro-dev-log.vercel.app/",
     github: "https://github.com/SilahicAmil/astro-dev-log",
