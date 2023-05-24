@@ -44,7 +44,7 @@ const Navigation = ({ children }) => {
                           router.pathname === "/"
                             ? "rounded-sm  bg-slate-400 "
                             : null
-                        } flex items-center gap-2 `}
+                        } flex items-center gap-2 hover:rounded-sm hover:bg-gray-600 hover:duration-200`}
                       >
                         <FaReact className="text-lg text-blue-500" />
                         Home.jsx
@@ -56,7 +56,7 @@ const Navigation = ({ children }) => {
                           router.pathname === "/projects"
                             ? "rounded-sm bg-slate-400"
                             : null
-                        } flex items-center gap-2`}
+                        } flex items-center gap-2 hover:rounded-sm hover:bg-gray-600 hover:duration-200`}
                       >
                         <IoLogoJavascript className="text-lg text-orange-300" />
                         Projects.js
@@ -68,7 +68,7 @@ const Navigation = ({ children }) => {
                           router.pathname === "/contact"
                             ? "rounded-sm bg-slate-400"
                             : null
-                        } flex items-center  gap-2`}
+                        } flex items-center  gap-2 hover:rounded-sm hover:bg-gray-600 hover:duration-200`}
                       >
                         <VscJson className="text-lg text-orange-300" />
                         Contact.json
@@ -80,7 +80,7 @@ const Navigation = ({ children }) => {
                           router.pathname === "/resume"
                             ? "rounded-sm bg-slate-400"
                             : null
-                        } flex items-center  gap-2`}
+                        } flex items-center  gap-2 hover:rounded-sm hover:bg-gray-600 hover:duration-200`}
                       >
                         <VscMarkdown className="text-lg text-blue-400" />
                         Resume.md

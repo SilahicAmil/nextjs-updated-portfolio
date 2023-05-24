@@ -20,7 +20,7 @@ const ActionsNav = ({}) => {
           <div
             className={` ${
               router.pathname === "/" ? "border-r-2" : null
-            } flex h-8 items-center justify-center`}
+            } flex h-8 items-center justify-center hover:bg-gray-600 hover:duration-200`}
           >
             <VscFiles className="text-2xl" />
           </div>
@@ -29,7 +29,7 @@ const ActionsNav = ({}) => {
           href="/resume"
           className={`${
             router.pathname === "/resume" ? "border-r-2" : null
-          } flex h-8 items-center justify-center`}
+          } flex h-8 items-center justify-center hover:bg-gray-600 hover:duration-200`}
         >
           <div className="flex h-8 items-center justify-center ">
             <VscMarkdown className="text-2xl" />
@@ -39,7 +39,7 @@ const ActionsNav = ({}) => {
           <div
             className={`${
               router.pathname === "/projects" ? "border-r-2" : null
-            } flex h-8 items-center justify-center`}
+            } flex h-8 items-center justify-center hover:bg-gray-600 hover:duration-200`}
           >
             <VscExtensions className="text-2xl" />
           </div>
@@ -48,7 +48,7 @@ const ActionsNav = ({}) => {
           <div
             className={`${
               router.pathname === "/contact" ? "border-r-2" : null
-            } flex h-8 items-center justify-center `}
+            } flex h-8 items-center justify-center hover:bg-gray-600 hover:duration-200`}
           >
             <VscJson className="text-2xl " />
           </div>
