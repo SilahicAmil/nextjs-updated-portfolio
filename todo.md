@@ -8,5 +8,3 @@
 <!-- -- Handle error for form messages -->
 
 <!-- -- Fix Project Cards responsiveness (md-sm) -->
-
--- Look into mnoving this into Astro - since im getting nothing out of NextJS features - ((still possible))

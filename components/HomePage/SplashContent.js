@@ -36,12 +36,6 @@ const SplashContent = ({}) => {
               </button>
             </Link>
           </div>
-
-          <div className="w-42  ml-28 mr-auto flex items-center justify-center bg-green-300 p-4 text-black hover:border hover:border-green-300 hover:bg-transparent hover:text-white hover:duration-200">
-            <Link href="/Amil-Silahic-Resume.pdf" download target="_blank">
-              Download Resume
-            </Link>
-          </div>
         </div>
       </div>
     </>

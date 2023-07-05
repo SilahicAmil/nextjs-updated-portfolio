@@ -41,16 +41,6 @@ const FilesNav = () => {
               Contact.json
             </div>
           </Link>
-          <Link href="/resume">
-            <div
-              className={`${
-                router.pathname === "/resume" ? "lg:border-b-2" : null
-              } flex h-8 w-40 items-center justify-center gap-2 p-2 hover:rounded-t-md hover:bg-gray-600 hover:duration-200`}
-            >
-              <VscMarkdown className="text-lg text-blue-400" />
-              Resume.md
-            </div>
-          </Link>
         </div>
       </>
     </>

@@ -25,16 +25,6 @@ const ActionsNav = ({}) => {
             <VscFiles className="text-2xl" />
           </div>
         </Link>
-        <Link
-          href="/resume"
-          className={`${
-            router.pathname === "/resume" ? "border-r-2" : null
-          } flex h-8 items-center justify-center hover:bg-gray-600 hover:duration-200`}
-        >
-          <div className="flex h-8 items-center justify-center ">
-            <VscMarkdown className="text-2xl" />
-          </div>
-        </Link>
         <Link href="/projects">
           <div
             className={`${
