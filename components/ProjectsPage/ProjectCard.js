@@ -16,8 +16,9 @@ const ProjectCard = ({
         className="h-64 w-full object-cover"
         src={`/images/${imageName}`}
         alt={title}
-        width={1000}
-        height={1000}
+        width={100}
+        height={100}
+        priority={true}
       />
       <div className="px-6 py-4">
         <div className="mb-2 flex flex-col gap-2 text-xl font-bold underline ">
