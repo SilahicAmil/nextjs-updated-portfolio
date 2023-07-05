@@ -74,18 +74,6 @@ const Navigation = ({ children }) => {
                         Contact.json
                       </li>
                     </Link>
-                    <Link href="/resume">
-                      <li
-                        className={`${
-                          router.pathname === "/resume"
-                            ? "rounded-sm bg-slate-400"
-                            : null
-                        } flex items-center  gap-2 hover:rounded-sm hover:bg-gray-600 hover:duration-200`}
-                      >
-                        <VscMarkdown className="text-lg text-blue-400" />
-                        Resume.md
-                      </li>
-                    </Link>
                   </div>
                 ) : null}
               </ul>
